@@ -6,10 +6,12 @@
 		<RunAOTCompilation>false</RunAOTCompilation>
 	</PropertyGroup>
 
-	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+	  <PropertyGroup>
+    	<TargetFramework>net9.0</TargetFramework>
+    	<WasmEnableThreads>true</WasmEnableThreads>
+    	<WasmEnableCooperativeSuspending>true</WasmEnableCooperativeSuspending>
+    	<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    	<EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
 		<Nullable>disable</Nullable>
 
 		<StartupObject>Program</StartupObject>
